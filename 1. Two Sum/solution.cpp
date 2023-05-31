@@ -7,7 +7,7 @@ class Solution {
 			std::vector<int> res;
 
 			for (size_t i = 0; i < nums.size(); i++) {
-				for (size_t j = 1; i < nums.size(); i++) {
+				for (size_t j = i + 1; j < nums.size(); j++) {
 					if (nums[i] + nums[j] == target) {
 						res.push_back(i);
 						res.push_back(j);
@@ -34,14 +34,12 @@ int main(void)
 	Solution solution;
 
 	std::vector<int> base;
-	base.push_back(2);
 	base.push_back(7);
+	base.push_back(2);
 	base.push_back(11);
 	base.push_back(15);
 
 	std::vector<int> res = solution.twoSum(base, 9);
-
-	printVector(base);
 	printVector(res);
 
 	return (0);
