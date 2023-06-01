@@ -1,6 +1,7 @@
 #include <iostream>
 
-class Solution {
+class Solution
+{
 	public:
 		std::vector<int> twoSum(std::vector<int> &nums, int target)
 		{
