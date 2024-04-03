@@ -14,7 +14,6 @@ class Solution:
 
         return len(final_str)
 
-
-if __name__ == "__main__":
-    solution = Solution()
-    print(solution.lengthOfLastWord("Hello World"))
+# if __name__ == "__main__":
+#     solution = Solution()
+#     print(solution.lengthOfLastWord("Hello World"))
