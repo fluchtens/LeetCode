@@ -23,9 +23,3 @@ var reverse = function (x) {
   }
   return res;
 };
-
-console.log(reverse(-123));
-console.log(reverse(120));
-console.log(reverse(10));
-console.log(reverse(1534236469));
-console.log(reverse(-1534236469));
